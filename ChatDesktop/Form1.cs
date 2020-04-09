@@ -55,7 +55,7 @@ namespace ChatDesktop
 
         private void joinBtn_Click(object sender, EventArgs e)
         {
-            //function executed at Hub(server)
+            //function executed at Hub(server)....
             _proxy.Invoke("joinGroup", txtName.Text,txtGrp.Text);
         }
 
